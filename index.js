@@ -9,6 +9,7 @@ app.get('/test', (req, res) => {
     res.send('Server is operational');
 })
 
+
 app.listen(port, () =>{
     console.log(`Server is running on port ${port}`)
 })
